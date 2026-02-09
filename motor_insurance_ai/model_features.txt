@@ -1,0 +1,2 @@
+Model Loaded Successfully!
+Expected Features: ['car_age', 'accident_type', 'location_type', 'damage_front', 'damage_rear', 'damage_left_side', 'damage_right_side', 'previous_claims', 'police_report', 'driver_at_fault', 'driver_age', 'accident_time']

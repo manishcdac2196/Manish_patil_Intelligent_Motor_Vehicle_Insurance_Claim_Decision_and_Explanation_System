@@ -1,0 +1,41 @@
+fastapi==0.111.0
+uvicorn==0.30.0
+pydantic==2.7.1
+python-multipart==0.0.9
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+joblib==1.4.2
+
+# Note: `torch` and `torchvision` are often environment-specific. Install
+# with the appropriate wheel for your platform (CPU vs CUDA). Example (CPU):
+# pip install "torch --index-url https://download.pytorch.org/whl/cpu"
+# We keep pillow for image handling
+torch==2.3.0
+torchvision==0.18.0
+pillow==10.3.0
+
+# For RAG / embeddings
+sentence-transformers==3.0.0
+hnswlib
+faiss-cpu==1.8.0
+
+# FAISS is OS-sensitive on Windows. If `pip install faiss-cpu` fails on your
+# platform, install via conda in WSL/Ubuntu or a Linux environment:
+#   conda install -c conda-forge faiss-cpu
+# For GPU builds use `faiss-gpu` from conda-forge. See backend/README.md for details.
+
+# PostgreSQL driver and SQLAlchemy
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
+
+# OpenCV for image preprocessing
+opencv-python==4.9.0.80
+
+# YOLO / Ultralytics for car detection in preprocessing
+ultralytics==8.2.10
+
+# Auth, JWT, Security
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.3

@@ -1,0 +1,7 @@
+{
+  "name": "IMVC-DES - Intelligent Insurance Claims",
+  "description": "A developer-friendly UI for claim intake, image-based damage estimation, RAG-driven policy retrieval, and MCP-structured explanations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
